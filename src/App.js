@@ -1,10 +1,10 @@
-
+import Sort from './componenets/Sort'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>React Loop</h1>
+      <Sort />
     </div>
   );
 }
