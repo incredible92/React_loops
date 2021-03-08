@@ -15,13 +15,15 @@ function Sort() {
   {
     sorts.map((sort, sortIndex) => {
       return(
-        <span 
+        <div className="sort">
+          <span 
             className={`button ${changeIndex===sortIndex? 'active' : ''}`}
             onClick={() => setChangeIndex(sortIndex)}
             key={`sort-pnr ${sortIndex}`}>
             {sort}
           
         </span>
+        </div>
         )
       })
     }  
