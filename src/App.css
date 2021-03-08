@@ -42,3 +42,10 @@ border: 2px solid rgb(135,206,250);
 .button.active{
   background: #1E90FF;
 }
+
+.only-mobile {
+  border: 2px solid rgb(135,206,250);
+width: 30rem;
+display: none;
+
+}
